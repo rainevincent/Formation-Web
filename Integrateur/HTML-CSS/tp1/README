@@ -1,0 +1,17 @@
+README
+
+        FORMATION	: INTEGRATION WEB
+
+        AUTEUR		: Vincent RAINE
+
+        ACTIVITE	: HTML5 - Semaine 1
+
+        SUJET		: Structurer son CV en HTML
+
+
+STRUCTURE DU DOSSIER:
+
+		index.html
+		/webroot
+				/css	:	Feuilles de styles CSS
+				/img 	:	Images

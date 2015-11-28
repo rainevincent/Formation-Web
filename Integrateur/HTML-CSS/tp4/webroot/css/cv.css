@@ -1,0 +1,76 @@
+@media screen and (max-width: 1024px) 
+{
+	#liseret
+	{
+    	display: none;
+	}
+	
+	.table-grid
+	{
+		margin-left: -60px;
+	}
+
+	.content
+	{
+		padding-left: 0px;
+	}		
+}
+
+h1
+{
+	font-family: 'permanent_markerregular';
+}
+
+body
+{
+	background-image: url(../img/bg.jpg);
+	font-family: 'muliregular';
+	font-weight: normal;
+    font-style: normal;
+}
+
+.content 
+{
+    padding-left: 90px;
+}
+
+.type
+{
+	font-family: 'press_start_2pregular';
+	color: white;
+}
+
+.title_section
+{
+  padding-bottom: 10px;
+  font-family: 'permanent_markerregular';
+  color: #026DAB;
+}
+
+ul.item_form
+{
+  padding-bottom: 15px;
+}
+
+li.item_form
+{
+  padding-bottom: 15px;
+}
+
+ul.elem_xp
+{
+  padding-bottom: 15px;
+}
+
+li.elem_xp
+{
+  padding-bottom: 15px;
+}
+
+#liseret
+{
+	position: fixed;
+	margin-left: -17px;
+    margin-top: -17px;
+}
+

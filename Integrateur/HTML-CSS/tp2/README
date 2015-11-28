@@ -1,0 +1,19 @@
+README
+
+        FORMATION	: INTEGRATION WEB
+
+        AUTEUR		: Vincent RAINE
+
+        ACTIVITE	: HTML5 - Semaine 2
+
+        SUJET		: Mettre en forme son CV
+
+
+STRUCTURE DU DOSSIER:
+
+		index.html
+		/webroot
+				/css	:	Feuilles de styles CSS
+				/img 	:	Images
+				/fonts:	:	Fonts importées
+				

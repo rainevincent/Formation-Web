@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content=="IE=edge"/>
+		<meta name="google" value="notranslate"/>
+		<link rel="icon" href="../webroot/img/favicon.png">
+		<title>OpenClassRoom : Formation</title>
+		
+		<!-- Style CSS -->
+		<link rel="stylesheet" type="text/css" href="../webroot/css/menu.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Fonts Style -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,900' rel='stylesheet' type='text/css'>
+
+		<!-- JavaScript -->
+	</head>
+	<body>
+		<div class="container">
+			<h1>Intégrateur Web</h1>
+			<div class='sidebar-1'>
+				<div class='sidebar-menu'><a href="../index.html">RETOUR AUX FORMATIONS</a>
+					<div class='expand'></div>
+				</div>
+
+
+				<div class='sidebar-menu'>Apprenez à créer votre site web avec HTML5 et CSS3
+					<div class='expand'></div>
+				</div>
+				<div class='sub-menu'>
+					<ul>
+						<li><a href="HTML-CSS/tp1/index.html">Activité 1: Structurer son CV</a></li>
+						<li><a href="HTML-CSS/tp2/index.html">Activité 2: Mettre en forme son CV</li>
+						<li><a href="HTML-CSS/tp3/index.html">Activité 3: Organiser son CV</a></li>
+						<li><a href="HTML-CSS/tp4/index.html">Activité 4: Adapter son CV en Responsive</a></li>
+					</ul>
+				</div>
+				<div class='sidebar-menu'>Développeur Web PHP / Symfony 2
+					<div class='expand'></div>
+				</div>
+				<div class='sub-menu'>
+					<ul>
+						<li>Apprenez à créer votre site web avec HTML5 et CSS3</li>
+						<li>Concevez votre site web avec PHP et MySQL</li>
+						<li>Administrez vos bases de données avec MySQL</li>
+						<li>Gérer son code avec Git et GitHub</li>
+						<li>Programmez en orienté objet en PHP</li>
+						<li>Développez votre site web avec le framework Symfony2</li>
+					</ul>
+				</div>
+				<div class='sidebar-menu'>Photoshop
+					<div class='expand'></div>
+				</div>
+				<div class='sub-menu'>
+					<ul>
+						<li>Maquettez votre site responsive avec Photoshop</li>
+					</ul>
+				</div>
+				<div class='sidebar-menu'>Chef de projet multimédia - Développement
+					<div class='expand'></div>
+				</div>
+				<div class='sub-menu'>
+					<ul>
+						<li>Apprenez à créer votre site web avec HTML5 et CSS3</li>
+						<li>Dynamisez vos sites web avec JavaScript !</li>
+						<li>Prenez en main Bootstrap</li>
+						<li>Gérer son code avec Git et GitHub</li>
+						<li>Simplifiez vos développements JavaScript avec jQuery</li>
+						<li>Concevez votre site web avec PHP et MySQL</li>
+						<li>Développez votre site web avec le framework Symfony2</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script>
+      $(document).ready(function () {
+    $('.sidebar-menu').mouseenter(function () {
+        $(this).children('.expand').addClass('turn');
+    });
+    $('.sidebar-menu').mouseleave(function () {
+        if ($(this).hasClass('open')) {
+        } else {
+            $(this).children('.expand').removeClass('turn');
+        }
+    });
+    $('.sidebar-menu').click(function () {
+        var $this = $(this);
+        if ($this.hasClass('open')) {
+            $('.sidebar-menu').removeClass('open');
+            $('.sub-menu').stop(true).slideUp('fast');
+            $('.expand').removeClass('turn');
+            $this.removeClass('open');
+            $this.children('.expand').removeClass('turn');
+            $this.next().stop(true).slideUp('fast');
+        } else {
+            $('.sidebar-menu').removeClass('open');
+            $('.sub-menu').stop(true).slideUp('fast');
+            $('.expand').removeClass('turn');
+            $this.addClass('open');
+            $this.children('.expand').addClass('turn');
+            $this.next().stop(true).slideDown('fast');
+        }
+    });
+});
+      //@ sourceURL=pen.js
+    </script>
+
+    
+    <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</html>

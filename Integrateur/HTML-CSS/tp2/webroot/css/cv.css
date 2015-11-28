@@ -1,0 +1,94 @@
+/*
+	Feuille de style CSS de mon CV
+ */
+
+h1
+{
+	font-family: 'permanent_markerregular';
+}
+
+body
+{
+	background-image: url(../img/bg.jpg);
+	font-family: 'muliregular';
+	font-weight: normal;
+    font-style: normal;
+}
+
+.container
+{
+	width: 65%;
+	padding-left: 15px;
+	border: solid black 2px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+	-webkit-box-shadow :11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+	-moz-box-shadow:11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+	margin-left: 18%	;
+}
+
+#identity
+{
+	font-family: 'press_start_2pregular';
+	color: #C10F02;
+}
+
+#photo_id
+{
+	border-radius: 10px;
+	box-shadow: 11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+	-webkit-box-shadow :11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+	-moz-box-shadow:11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+}
+
+.section
+{
+	padding-left: 30px;
+}
+
+.title_section
+{
+  padding-bottom: 10px;
+  font-family: 'permanent_markerregular';
+  color: #026DAB;
+}
+
+.brackets
+{
+	color: red;
+	font-weight: 18px;
+}
+
+.important
+{
+	color: red;
+}
+
+ul.item_form
+{
+  padding-bottom: 15px;
+}
+
+li.item_form
+{
+  padding-bottom: 15px;
+}
+
+ul.elem_xp
+{
+  padding-bottom: 15px;
+}
+
+li.elem_xp
+{
+  padding-bottom: 15px;
+}
+
+#liseret
+{
+	position: fixed;
+	margin-left: -17px;
+    margin-top: -17px;
+}
+

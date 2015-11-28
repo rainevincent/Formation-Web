@@ -1,0 +1,126 @@
+/*
+	Feuille de style CSS de mon CV
+ */
+
+*
+{
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  font-family: 'muliregular';
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+}
+
+h1
+{
+  color: #222;
+  text-align:center;
+}
+
+.grid
+{
+  width: 100%;
+  display: table;
+  border-collapse:separate;
+  border-spacing:15px;
+}
+
+.grid-row
+{
+  width: 95%;
+  display: table;
+  table-layout: fixed;
+  margin-left: 3%;
+}
+
+.section 
+{
+  display: table-cell;
+  background: #fff;
+  padding: 2%;
+  box-shadow: 11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+	-webkit-box-shadow :11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+	-moz-box-shadow:11px 11px 16px 0px rgba(31, 50, 50, 0.91);
+}
+
+
+div
+{
+	display: block;	
+	position: relative;	
+}
+
+
+
+ul>li
+{
+    list-style: none;
+}
+
+body
+{
+	background-image: url(../img/bg.jpg);
+	font-family: 'muliregular';
+	font-weight: normal;
+    font-style: normal;
+}
+
+.intro
+{
+	background:none; 
+	box-shadow:none;
+	margin-top: -10%;
+}
+
+#identity
+{
+	font-family: 'press_start_2pregular';
+    color: #EFCA09;
+    text-align: left;
+    text-shadow: 7px 5px 8px #000000;
+}
+
+#metier
+{
+    font-family: 'Arial Black';
+    color: white;
+    text-align: left;
+    text-shadow: 7px 5px 8px #000000;
+    font-size: 20px;
+}
+
+div#photo_id 
+{
+    width: 26.8%;
+}
+
+.title_section
+{
+  padding-bottom: 10px;
+  font-family: 'press_start_2pregular';
+  color: #026DAB;
+  text-align: center;
+}
+
+.brackets
+{
+	color: red;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.important
+{
+	color: red;
+}	
+
+#liseret
+{
+	position: fixed;
+	margin-left: -17px;
+    margin-top: -17px;
+}
+
+
